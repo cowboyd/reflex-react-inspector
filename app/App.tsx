@@ -1,15 +1,14 @@
 import React, { Suspense } from 'react';
-import { Cats } from './Cats.tsx';
 import { ErrorBoundary } from './ErrorBoundary.tsx';
+import { ObjectInspector } from 'react-inspector';
 
 export const App = () => {
   return (
     <div>
       <h1>Application</h1>
-      <p>These are facts about cats:</p>
       <Suspense fallback={<h1>Loading...</h1>}>
         <ErrorBoundary>
-          <Cats />
+          <ObjectInspector data={{"Hello": "World"}} />
         </ErrorBoundary>
       </Suspense>
     </div>
