@@ -4,6 +4,6 @@
     "react-dom": "https://esm.sh/react-dom@18.1.0?dev",
     "react-dom/client": "https://esm.sh/react-dom@18.1.0/client?dev",
     "react-query": "https://esm.sh/react-query@3.39.1?dev",
-    "react-inspector": "https://esm.sh/react-inspector@5.1.1"
+    "react-inspector": "https://esm.sh/react-inspector@5.1.1?deps=react@18.1.0,react-dom@18.1.0&dev"
   }
 }
